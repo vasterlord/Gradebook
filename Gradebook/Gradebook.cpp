@@ -16,7 +16,6 @@ int main()
 	int size = 1;
 	cout << " Input count of exams :" << endl;
 	cin >> size;
-	cout << " Enter index of month : \n";
 	GeneralGradeBook gradeBook(size);
 	while (choice == "y")
 	{
